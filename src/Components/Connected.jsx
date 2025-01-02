@@ -26,14 +26,19 @@ const Connected = (props) => {
                 </tr>
                 </thead>
                 <tbody>
-                {props.candidates.map((candidate, index) => (
-                    <tr key={index}>
-                    <td>{candidate.index}</td>
-                    <td>{candidate.name}</td>
-                    <td>{candidate.voteCount}</td>
-                    </tr>
-                ))}
+                    {props.candidates.length > 0 ? (
+                        props.candidates.map((candidate, index) => (
+                        <tr key={index}>
+                            <td>{candidate.index}</td>
+                            <td>{candidate.name}</td>
+                            <td>{candidate.voteCount}</td>
+                        </tr>
+                        ))
+                    ) : (
+                        <tr><td colSpan="3">No candidates available</td></tr>
+                    )}
                 </tbody>
+
             </table>
             
         </div>
