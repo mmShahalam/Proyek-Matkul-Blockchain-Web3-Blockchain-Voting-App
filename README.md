@@ -19,14 +19,16 @@ Proyek ini bertujuan untuk meningkatkan keamanan, transparansi, dan kepercayaan 
 ## 🚀 Cara Kerja
 - Admin:
   - Menambahkan kandidat baru dan memantau hasil voting.
-    ![Admin add candidate](https://github.com/user-attachments/assets/93a7acdb-5c90-4357-b1e0-70ced9a0c55d)
+    ![Admin add candidate](https://github.com/user-attachments/assets/274eeec7-7ef0-4232-a665-fffd15e612c8)
   - Semua data kandidat dicatat secara permanen di blockchain.
 - Pemilih:
   - Login menggunakan MetaMask.
-    ![Login with MetaMask](https://github.com/user-attachments/assets/94d99833-d429-453e-b067-501101edcdbb)
-- Memilih kandidat dan mengonfirmasi suara melalui transaksi blockchain.
-  ![Vote candidate](https://github.com/user-attachments/assets/311f5ae1-927e-4503-9d8e-88a9c9185307)
-- Status pemilih diperbarui secara otomatis setelah voting.
+    ![Login with MetaMask](https://github.com/user-attachments/assets/6c19ae7c-3133-403a-a93b-c9dcb5b77861)
+  - Memilih kandidat dan mengonfirmasi suara melalui transaksi blockchain.
+    ![Vote candidate](https://github.com/user-attachments/assets/233bcb1b-ec09-4b08-852a-ec60306fd8ec)
+  - Status pemilih diperbarui secara otomatis setelah voting.
+    ![Vote success](https://github.com/user-attachments/assets/153d0b3e-7166-4965-b744-f19d4de395e6)
+
 
 ## 🛠️ Instalasi dan Penggunaan
 - Clone repository ini:
