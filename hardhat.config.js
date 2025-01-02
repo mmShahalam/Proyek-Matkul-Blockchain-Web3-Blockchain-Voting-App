@@ -15,8 +15,6 @@ module.exports = {
       sepolia: {
          url: API_URL,
          accounts: [`0x${PRIVATE_KEY}`],
-         gas: 2500000,
-         gasPrice: 5000000000,
       }
    },
-};
+}
